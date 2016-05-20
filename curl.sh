@@ -11,7 +11,7 @@ for user in `cat $userlist`; do
       break 2
     else 
 	  echo "WRONG: User: '$user' Pass: '$pass'"
-	  break 2
+	  break 
     fi
   done
 done
